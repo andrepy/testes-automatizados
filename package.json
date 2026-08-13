@@ -2,6 +2,7 @@
   "name": "testes",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://andrepy.github.io/testes-automatizados",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/user-event": "^13.5.0",
