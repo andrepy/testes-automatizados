@@ -13,3 +13,8 @@ test('não quebra quando texto é vazio', () => {
     rerender(<Botao/>)
     expect(screen.getByRole("button")).toBeInTheDocument()
 })
+
+test('exibe o texto passado via prop texto', () => {    
+    render(<Botao texto="Enviar" />)
+    expect(screen.getByRole('button')).toHaveTextContent('Enviar')
+})
